@@ -19,22 +19,22 @@ console.log(topper[0]);
 // For Objects
 
 var Person = {
-name1 : 'Ram',
-location : 'Paris'
+    name1: 'Ram',
+    location: 'Paris'
 }
 
-var {name1: renamed, location: relocated} = Person; //assigning name
-console.log(renamed,relocated);
+var { name1: renamed, location: relocated } = Person; //assigning name
+console.log(renamed, relocated);
 
 // For of loops
 
 var Car = {
-    model : 'M360',
-    color : 'red',
-    type : 'manual'
+    model: 'M360',
+    color: 'red',
+    type: 'manual'
 }
 
-for (var key of Object.keys(Car)){
+for (var key of Object.keys(Car)) {
     console.log(Car[key]);
 }
 
