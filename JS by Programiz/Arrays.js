@@ -37,3 +37,60 @@ function square(num){
 
 
 console.log(num.map(square));
+
+//MULTIDIMENSIONAL ARRAY
+ let students = [
+    ['Shubha','1'],
+    ['Radha','2'],
+    ['Shyam','3'],
+    ['Ghanshyam','4'],
+    ['Ritu','5']
+ ]
+
+ for (let i = 0; i < students.length; i++){
+    for (let j = 0; j < students[i].length; j++){
+        console.log(students[i][j]);
+    }
+ }
+
+students.forEach((student) => {
+    student.forEach((data)=> {
+        console.log(data);
+    });
+});
+
+//For..of loop - return value
+
+for ( let i of students){
+    for ( let j of i){
+        console.log(j);
+    }
+}
+
+//For..in loop - return key name
+
+let house = {
+    one: 'blue',
+    two: 'red',
+    three: 'green'
+    };
+
+for (let key in house){
+    console.log(`${key}: ${house[key]}`);
+}
+
+//SYMBOL DATATYPE
+
+let x = Symbol('I am a symbol');
+console.log(x.description);
+
+//Can be used as an key for a object
+
+let age = Symbol();
+
+let myObject = {
+    name: 'Shubha',
+    [age]:29
+}
+
+console.log(myObject);
