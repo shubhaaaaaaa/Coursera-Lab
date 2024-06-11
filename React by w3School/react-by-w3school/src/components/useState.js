@@ -9,7 +9,7 @@ function ChangeColor(){
 
     return(
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-            <h1>Hover or Click over the text to change color!</h1>
+            <h1 className="text-white">Hover or Click over the text to change color!</h1> <br></br>
             <p
             style= {{cursor: "pointer", color: color, fontSize: "40px", textTransform: "uppercase"}}
             onClick={()=> color==="yellow"? setColor("red"): setColor("yellow")}

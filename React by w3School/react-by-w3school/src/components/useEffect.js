@@ -20,7 +20,7 @@ function UpdateValues(){
 
     return(
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-            <p style={{fontSize: "30px", textTransform: "uppercase", color: 'blue'}}>Use Effect Hook</p>
+            <p style={{fontSize: "30px", textTransform: "uppercase", color: 'blue'}} className='text-3xl font-bold underline'>Use Effect Hook</p>
             <p> Number: {number} </p>
 
             <div style={{display:'flex', flexDirection: 'row', gap: '1rem'}}>
