@@ -3,10 +3,11 @@ import { useState } from 'react';
 
 import {UpdateValues} from "./useEffect";
 import ChangeColor from "./useState";
+import DisplayMessage from "./conditionalRendering";
 import Menu from "./navbar";
 
 function Main(){
-    const cards = [<Menu />, <ChangeColor/>,<UpdateValues />]
+    const cards = [<Menu />, <DisplayMessage />, <ChangeColor/>,<UpdateValues />]
     let [index, setIndex] = useState(0);
     let [display, setDisplay] = useState(cards[index]);
 
