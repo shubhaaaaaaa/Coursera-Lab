@@ -5,9 +5,10 @@ import {UpdateValues} from "./useEffect";
 import ChangeColor from "./useState";
 import DisplayMessage from "./conditionalRendering";
 import Menu from "./navbar";
+import AddAssets from "./addingAssets"
 
 function Main(){
-    const cards = [<Menu />, <DisplayMessage />, <ChangeColor/>,<UpdateValues />]
+    const cards = [<Menu />, <DisplayMessage />, <AddAssets />, <ChangeColor/>,<UpdateValues />]
     let [index, setIndex] = useState(0);
     let [display, setDisplay] = useState(cards[index]);
 
