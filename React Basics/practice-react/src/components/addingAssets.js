@@ -1,6 +1,8 @@
 import ReactPlayer from "react-player";
 import React from "react";
 
+const vidSrc = "https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1";
+
 function AddAssets(){
     return(
         <div>
@@ -15,7 +17,10 @@ function AddAssets(){
 function MyVideo(){
     return (
         <div className="flex items-center justify-center">
-        <ReactPlayer  url="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1" width="90%"/>
+        <ReactPlayer
+        url={vidSrc}
+        width="90%"
+        />
         </div>
     );
 }
