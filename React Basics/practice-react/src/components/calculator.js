@@ -14,46 +14,61 @@ import {
     }; 
    
     function minus(e) { 
-        // Add the code for the minus function 
+      //stops the normal behavior when an event e occurs, i.e. does not refresh page after calling an event like clicking a button
+      e.preventDefault(); 
+      setResult((result) => result - Number(inputRef.current.value));
     };
    
     function times(e) { 
-      // Add the code for the plus function 
+      e.preventDefault(); 
+      setResult((result) => result * Number(inputRef.current.value)); 
     }; 
    
     function divide(e) { 
-      // Add the code for the divide function 
+      e.preventDefault(); 
+      setResult((result) => result / Number(inputRef.current.value)); 
     };
-   
+    
     function resetInput(e) { 
-      // Add the code for the resetInput function 
+      e.preventDefault(); 
+      inputRef.current.value = 0;
     }; 
    
     function resetResult(e) { 
-        // Add the code for the resetResult function 
+      e.preventDefault(); 
+      setResult(0);
     }; 
    
     return ( 
-      <div className="App"> 
-        <div> 
-          <h1>Simplest Working Calculator</h1> 
-        </div> 
+      <div> 
+       <p style={{fontSize: "30px", textTransform: "uppercase", color: 'blue'}} className='text-3xl font-bold'>Simple Calculator</p><br />
         <form> 
-          <p ref={resultRef}> 
-            {/* add the value of the current total */} 
-          </p> 
+          <div className="flex justify-center items-start gap-6 mt-5">
           <input
+            className="p-3"
             pattern="[0-9]" 
             ref={inputRef} 
             type="number" 
             placeholder="Type a number" 
-          /> 
-          <button onClick={plus}>add</button> 
-          {/* Add the subtract button */} 
-          {/* Add the multiply button */} 
-          {/* Add the divide button */} 
-          {/* Add the resetInput button */} 
-          {/* Add the resetResult button */} 
+          />
+          <p className="text-3xl font-bold p-2" ref={resultRef}> 
+            {result} 
+          </p> 
+          </div>
+          <br />
+
+          <div className="flex justify-center items-center">
+          <button className="p-2 mr-3 mb-5 outline-blue-400 outline rounded-md" onClick={plus}>add</button> 
+          <button className="p-2 mr-3 mb-5 outline-blue-400 outline rounded-md" onClick={minus}>minus</button> 
+          <button className="p-2 mr-3 mb-5 outline-blue-400 outline rounded-md" onClick={times}>times</button> 
+          <button className="p-2 mr-3 mb-5 outline-blue-400 outline rounded-md" onClick={divide}>divide</button> 
+          </div>
+
+          
+          <div className="flex justify-center items-center">
+          <button className="p-2 mr-3 mb-5 outline-orange-400 outline rounded-md" onClick={resetInput}>resetInput</button> 
+          <button className="p-2 mr-3 mb-5 outline-orange-400 outline rounded-md" onClick={resetResult}>resetResult</button> 
+          </div>
         </form> 
       </div> 
     ); 
