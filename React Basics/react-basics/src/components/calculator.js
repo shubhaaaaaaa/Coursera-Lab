@@ -71,7 +71,7 @@ import {
           </div>
         </form> 
 
-        <p className='text-sm text-center italic mt-24 opacity-50'>Things I learnt:
+        <p className='text-sm text-center italic mt-16 opacity-50'>Things I learnt:
                 <ul>
                     <li>- using form</li>
                     <li>- useRef hook</li>

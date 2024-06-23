@@ -10,7 +10,7 @@ function AddAssets(){
             <br/>  
             <p className='text-md px-8 pb-4'>Here is a youtube video : </p>    
             <MyVideo /> 
-            <p className='text-sm text-center italic mt-32 opacity-50'>Things I learnt:
+            <p className='text-sm text-center italic mt-24 opacity-50'>Things I learnt:
                 <ul>
                     <li>- managing assets</li>
                     <li>- using React Player npm package</li>

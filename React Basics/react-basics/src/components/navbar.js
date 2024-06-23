@@ -16,7 +16,7 @@ function Menu(){
                 <br /><br/>
                 I am implementing basic concepts of React that I have learnt via this small project.</p>
 
-            <p className='text-xs italic text-center mt-40 opacity-50'>Every card has a 'Things I learnt' section at the bottom.</p>
+            <p className='text-xs italic text-center mt-32 opacity-50'>Every card has a 'Things I learnt' section at the bottom.</p>
             </>    
         );
     }
@@ -45,11 +45,11 @@ function Menu(){
             <>                
             <p className='text-xl text-center'> Connect with me:</p>
             <div className='flex justify-center items-center'>
-                <img src={linkedinLogo} alt='linked in logo'  className='hover:opacity-60' width='30px' href="https://www.linkedin.com/in/shubhakhadgi/"/>
-                <img src={githubLogo} alt='github logo ' className='hover:opacity-60' width='40px' href="https://github.com/shubhaaaaaaa"/>      
-                <img src={instaLogo} alt='instagram logo'  className='hover:opacity-60' width='35px' href="https://www.instagram.com/strokes_byshubha/"/>             
+                <a href="https://www.linkedin.com/in/shubhakhadgi/"><img src={linkedinLogo} alt='linked in logo'  className='hover:opacity-60' width='30px' /></a>    
+                <a href="https://github.com/shubhaaaaaaa"><img src={githubLogo} alt='github logo ' className='hover:opacity-60' width='40px'/></a>     
+                <a href="https://www.instagram.com/strokes_byshubha/"><img src={instaLogo} alt='instagram logo'  className='hover:opacity-60' width='35px' /></a>           
             </div>
-            <p className='text-sm text-center italic mt-40 opacity-50'>Things I learnt:
+            <p className='text-sm text-center italic mt-32 opacity-50'>Things I learnt:
                 <ul>
                     <li>- making a navigation bar</li>
                     <li>- using links and routing</li>

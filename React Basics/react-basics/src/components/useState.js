@@ -20,7 +20,7 @@ function ChangeColor(){
 
             >{ color }</p>
 
-            <p className='text-sm text-center italic mt-56 opacity-50'>Things I learnt:
+            <p className='text-sm text-center italic mt-44 opacity-50'>Things I learnt:
                 <ul>
                     <li>- useState hook</li>
                     <li>- arrow function</li>

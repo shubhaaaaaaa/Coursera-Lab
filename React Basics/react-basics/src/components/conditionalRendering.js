@@ -15,7 +15,7 @@ function DisplayMessage() {
             <img className='pt-4 w-35' src={imageSrc} alt={message} />
          </p>
 
-         <p className='text-sm text-center italic mt-32 opacity-50'>Things I learnt:
+         <p className='text-sm text-center italic mt-24 opacity-50'>Things I learnt:
                 <ul>
                     <li>- conditional rendering</li>
                     <li>- importing images</li>
