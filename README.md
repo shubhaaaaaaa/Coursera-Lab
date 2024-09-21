@@ -11,9 +11,9 @@ A collection of all lab assignments of courses I've taken in Coursera.
 ## Certificates & Achievements
 
 Course: React Basics
-![Certificate1](https://coursera.org/share/f8a347c747e7be8d00b6e212dd9189e4)
+![Certificate1](https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/react-basics.png)
 Course: Introduction to Frontend Development
-![Certificate2](https://coursera.org/share/c08f7ce5566956b0a0f0134b9affacb1)
+![Certificate2]([https://coursera.org/share/c08f7ce5566956b0a0f0134b9affacb1](https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/introduction-to-frontend-development.png))
  
 ## Feedback
 
