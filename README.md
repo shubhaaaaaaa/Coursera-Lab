@@ -12,11 +12,11 @@ A collection of all lab assignments of courses I've taken in Coursera.
 
 Course: React Basics
 
-<img src="https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/react-basics.png" alt="React Basics Certificate" width="500"/>
+<img src="https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/react-basics.png" alt="React Basics Certificate" width="500" style="display: block; margin: auto;"/>
 
 Course: Introduction to Frontend Development
 
-<img src="https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/introduction-to-frontend-development.png" alt="Frontend Development Certificate" width="500"/>
+<img src="https://github.com/shubhaaaaaaa/Coursera-Lab/blob/main/certifications/introduction-to-frontend-development.png" alt="Frontend Development Certificate" width="500" style="display: block; margin: auto;"/>
  
 ## Feedback
 
